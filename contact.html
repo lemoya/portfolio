@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Contact - iPortfolio</title>
+  <meta content="Contact Page" name="description">
+  <meta content="contact, get in touch, reach out" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Floating button styles -->
+  <style>
+    .floating-btn-container {
+      position: fixed;
+      top: 20%; /* Adjust this value to control the starting position */
+      right: 10px; /* Left-aligned */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: auto; /* Allows buttons to stack naturally */
+    }
+
+    .floating-btn {
+      margin-bottom: 10px; /* Adds space between buttons */
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 50%;
+      color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .floating-btn:hover {
+      transform: scale(1.1);
+    }
+
+    /* LinkedIn Button */
+    .floating-btn.linkedin {
+      background-color: #0077b5;
+    }
+
+        /* WhatsApp Button */
+    .floating-btn.whatsapp {
+      background-color: #25d366;
+    }
+
+    .floating-btn i {
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body class="contact-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Lenza Moya</h1>
+    </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="service-details.html"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="contact.html"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Contact Me</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Contact</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3>Get In Touch With Me</h3>
+            <p>If you would like to reach out to me, you can choose the method most convenient for you. I’m available via email, phone, or through LinkedIn.</p>
+            
+            <div class="contact-options">
+              <h4>Email</h4>
+              <p><i class="bi bi-envelope"></i> <a href="mailto:lenzamoya@gmail.com">lenzamoya@gmail.com</a></p>
+
+              <h4>Phone</h4>
+              <p><i class="bi bi-telephone"></i> <a href="tel:+254746561413">+254746561413</a></p>
+
+              <h4>Social Media</h4>
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/lenza-moya-529089208/" target="_blank" class="bi bi-linkedin"></a>
+                <a href="https://wa.me/254746561413" target="_blank" class="bi bi-whatsapp"></a> <!-- WhatsApp link -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Lenza Moya</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        Designed by Billmango Distributed by Billmango
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Floating Social Buttons -->
+  <div class="floating-btn-container">
+    <a href="https://www.linkedin.com/in/lenza-moya-529089208/" class="floating-btn linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+    <a href="https://wa.me/254746561413" class="floating-btn whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+  </div>
+
+</body>
+
+</html>
